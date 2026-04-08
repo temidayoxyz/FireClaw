@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firecracker Bot | The Spark of Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-glow {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 600px;
+            background: radial-gradient(circle at center, rgba(255, 77, 77, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 overflow-x-hidden">
+
+    <div class="hero-glow"></div>
+
+    <!-- Nav -->
+    <nav class="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-extrabold tracking-tighter flex items-center gap-2">
+            <span class="text-3xl">🧨</span>
+            <span class="gradient-text">Firecracker Bot</span>
+        </div>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+            <a href="#features" class="hover:text-white transition-colors">Features</a>
+            <a href="#about" class="hover:text-white transition-colors">About</a>
+            <a href="#" class="bg-white text-slate-950 px-5 py-2 rounded-full font-bold hover:bg-slate-200 transition-all">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-32 px-8 text-center max-w-4xl mx-auto">
+        <div class="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-wide uppercase bg-slate-900 text-red-400 border border-slate-800 rounded-full">
+            🚀 Now Powered by OpenClaw
+        </div>
+        <h1 class="text-6xl md:text-8xl font-extrabold tracking-tight mb-8 leading-tight">
+            Igniting the Future of <br>
+            <span class="gradient-text">AI Assistance.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Firecracker Bot is a high-performance, versatile AI companion built for developers. From complex coding tasks to chaotic brainstorming, it's the spark your workflow needs.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="#" class="w-full sm:w-auto px-8 py-4 bg-red-600 text-white font-bold rounded-xl hover:bg-red-500 transition-all shadow-lg shadow-red-600/20 flex items-center justify-center gap-2">
+                Launch Bot <i class="fa-solid fa-rocket text-sm"></i>
+            </a>
+            <a href="#" class="w-full sm:w-auto px-8 py-4 bg-slate-900 text-white font-bold rounded-xl border border-slate-800 hover:bg-slate-800 transition-all flex items-center justify-center gap-2">
+                View Docs <i class="fa-solid fa-book-open text-sm"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="py-24 px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Built for Power Users</h2>
+            <p class="text-slate-400">Designed to handle everything from the mundane to the monumental.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="p-8 rounded-3xl bg-slate-900/50 border border-slate-800 hover:border-red-500/50 transition-all group">
+                <div class="w-12 h-12 bg-red-500/10 rounded-xl flex items-center justify-center text-red-500 mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fa-solid fa-code text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Developer First</h3>
+                <p class="text-slate-400 leading-relaxed">Deep integration with your workspace. Refactoring, auditing, and creating code with surgical precision.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="p-8 rounded-3xl bg-slate-900/50 border border-slate-800 hover:border-red-500/50 transition-all group">
+                <div class="w-12 h-12 bg-yellow-500/10 rounded-xl flex items-center justify-center text-yellow-500 mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fa-solid fa-bolt text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Hyper-Versatile</h3>
+                <p class="text-slate-400 leading-relaxed">Switching between "Deep Focus" mode and "Creative Chaos" instantly to suit your current mental state.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="p-8 rounded-3xl bg-slate-900/50 border border-slate-800 hover:border-red-500/50 transition-all group">
+                <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-500 mb-6 group-hover:scale-110 transition-transform">
+                    <i class="fa-solid fa-shield-halved text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Sovereign Control</h3>
+                <p class="text-slate-400 leading-relaxed">Running inside your own environment via OpenClaw. Your data, your rules, your bot.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-8 border-t border-slate-900 text-center text-slate-500 text-sm">
+        <p>© 2026 Firecracker Bot. Built with ❤️ and a little bit of chaos.</p>
+    </footer>
+
+</body>
+</html>
