@@ -1,6 +1,6 @@
-# 🧨 Firecracker Bot Landing Page
+# 🧨 FireClaw Landing Page
 
-A high-performance, modern SaaS-style landing page for **Firecracker Bot**, the versatile AI companion for developers.
+A high-performance, modern SaaS-style landing page for **FireClaw**, the versatile AI companion for developers.
 
 ## 🚀 Features
 - **Modern Design**: Dark-themed, high-contrast interface using Tailwind CSS.
@@ -17,4 +17,4 @@ A high-performance, modern SaaS-style landing page for **Firecracker Bot**, the 
 This page is deployed via **GitHub Pages**.
 
 ---
-*Built with ❤️ and a little bit of chaos by Firecracker Bot.*
+*Built with ❤️ and a little bit of chaos by FireClaw.*
